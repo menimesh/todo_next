@@ -17,7 +17,7 @@ const handler = asyncError(async (req,res)=>{
  cookieSetter(res,token,true)
  res.status(201).json({
     sucess:true,
-    message:"user created sucessfully"
+    message:"user created sucessfuly"
  })
 
 });
